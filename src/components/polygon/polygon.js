@@ -1,8 +1,9 @@
-import react from "react"
+// import react from "react"
+import classes from "./polygon.css"
 
 function Polygon(){
     return(
-        <div></div>
+        <div className={classes.test}>Hyi</div>
     )
 }
 export default Polygon
