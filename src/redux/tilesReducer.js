@@ -43,6 +43,8 @@ export const TilesReducer = (state = initianalState ,action) => {
         case OPENCARD:
             if(state.countertofinish.length > 7){
                 state.flagfinish = true
+            } else {
+                state.flagfinish = false
             }
             let copy = newtilesArr[action.key]
             copy.show = "show"
