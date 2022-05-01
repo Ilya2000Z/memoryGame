@@ -1,3 +1,15 @@
-.test{
-    color: brown;
+.background{
+    background: url(https://i.pinimg.com/originals/5e/eb/36/5eeb369cd9ed811cdb71bd859b7d626d.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+}
+
+.col4{
+    flex: 0 0 auto;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
 }
