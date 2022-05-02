@@ -75,7 +75,6 @@ export const TilesReducer = (state = initianalState ,action) => {
                 newtilesArr.length = 0
                 createArr()
                 initianalState.tilesarr = newtilesArr
-                console.log(state)
             return{
                 ...state,
                 tilesarr: newtilesArr,
